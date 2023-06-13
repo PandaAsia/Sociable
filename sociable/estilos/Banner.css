@@ -1,0 +1,78 @@
+
+.slidershow_banner{
+    display: none;
+}
+.banner_2 img{
+    width: 100%;
+    height: auto;
+}
+
+.repositorio_banner{
+    position: relative;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 550px;;
+}
+
+@media only screen and (min-width: 720px) {
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .banner_2 img{
+        display: none;
+    }
+    .slidershow_banner{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .slider_banner li img{
+        width: 100%;
+        opacity: 1;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .slidershow_banner ul, .slider_banner li{
+        width: 100%;
+    }
+    
+    .paginacion_banner{
+        position: absolute;
+        top: 100%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .paginacion_banner li{
+        font-size: 20px;
+        margin: 2px 5px;
+        color: #858585;
+        cursor: pointer;
+    }
+
+    .banner{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .banner{
+        width: 100%;
+        height: 550px;;
+    }
+    
+
+}

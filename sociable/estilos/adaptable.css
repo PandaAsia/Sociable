@@ -1,0 +1,111 @@
+.adaptables {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.adaptables h2 {
+    width: 70%;
+    font-family: Lato;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.informacion{
+    width: 100%;
+}
+
+.adaptables img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.adaptables p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+    font-size: 13px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+.adaptables #descripcion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.adaptables #descripcion img {
+    width: 11px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 720px) {
+    .adaptables .informacion {
+        display: flex;
+    }
+    .adaptables .informacion #imagen {
+        /* background-color: black; */
+        width: 50%;
+        box-sizing: content-box;
+    }
+    .adaptables .informacion #descripcion {
+        margin: initial;
+        width: 50%;
+    }
+    .adaptables .informacion img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .adaptables h2 {
+        width: 28%;
+        margin-bottom: 40px;
+    }
+    .adaptables #descripcion {
+        box-sizing: content-box;
+    }
+    .adaptables #descripcion div {
+        /* box-sizing: content-box; */
+        width: 390px;
+        margin: 0 auto;
+    }
+    .adaptables p {
+        width: 90%;
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 18px;
+        margin-left: 18px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+
+    .adaptables h2 {
+        width: 20%;
+        margin-bottom: 40px;
+    }
+
+    .adaptables p {
+        width: 100%;
+        font-size: 18px;
+        text-align: justify;
+        margin-bottom: 18px;
+        margin-left: 18px;
+    }
+
+    #descripcion{
+        margin-left: -20px;
+    }
+        
+}

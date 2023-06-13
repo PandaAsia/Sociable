@@ -1,0 +1,95 @@
+.quienesSomos div h2 {
+    color: #FE3535;
+    font-size: 20px;
+    font-family: lato-regular;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #FE3535;
+    width: 60%;
+    /* padding-left: 41px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.quienesSomos #main p {
+    width: 239.5px;
+    /* height: 188.18px; */
+    text-align: justify;
+    margin: 0 auto;
+    color: #707070;
+    line-height: 17px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quienesSomos #parrafo {
+    position: relative;
+    width: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.quienesSomos #parrafo .cajauno {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 136px;
+    height: 57px;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+}
+
+.quienesSomos #parrafo .cajados {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 137px;
+    height: 55.36px;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+}
+
+@media only screen and (min-width: 720px) {
+    .quienesSomos #parrafo {
+        width: 80%;
+    }
+    .quienesSomos #parrafo p {
+        width: 90%;
+    }
+
+    .quienesSomos div h2 {
+        font-size: 25px;
+        width: 30%;
+        margin-left: 80px;
+    }
+
+    .quienesSomos #main p {
+        font-size: 16px;
+        line-height: 1;
+    }
+    .quienesSomos #parrafo {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+
+    .quienesSomos div h2 {
+        font-size: 25px;
+        width: 20%;
+        margin-left: 125px;
+        border-bottom: 2px solid #FE3535;
+    }
+
+    .quienesSomos #main p {
+        font-size: 16px;
+        line-height: 1.5 ;
+    }
+
+}
+
+

@@ -1,0 +1,170 @@
+@import url("Fuentes.css");
+
+.responsables {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.responsables h2 {
+    color: #FE3535;
+    font-family: Lato;
+    border-bottom: 2px solid #FE3535;
+    padding-bottom: 5px;
+    width: 60%;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+div.frase div.foto_mienbro{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.frase div.foto_mienbro img{
+    width: 100%;
+}
+
+div.frase div.imformacion_miembros h3,
+div.frase div.imformacion_miembros h4 {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+div.frase div.imformacion_miembros h3 {
+    font-size: 18px;
+    font-family: segoeui;
+    font-weight: bold;
+    color: #616161;
+}
+
+div.frase div.imformacion_miembros h4  {
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #616161;
+}
+
+div.frase div.imformacion_miembros p {
+    color: #616161;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video_responsable{
+    display: none;
+}
+@media only screen and (min-width: 720px) {
+    .Repositorio_responsable{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor_responsable{
+        width: 50%;
+    }
+
+    .contenedor_responsable video{
+        width: 100%;
+    }
+    .contenedor_responsable video{
+        width: 100%;
+    }
+
+    #video_responsable video{
+        width: 90%;
+        height: auto;
+    }
+
+    #video_responsable{
+        display: block;
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .frase{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+    div.frase div.foto_mienbro{
+        width: 40%;
+        margin-left: 0;
+    }
+    div.frase div.imformacion_miembros{
+        width: 55%;
+        margin-left: 0;
+    }
+    #imformacion_responsable{
+        width: 45%;
+        margin-left: 20px;
+    }
+    div.frase div.imformacion_miembros p {
+        font-size: 13px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-right: 10px;
+        line-height: 1.0;
+    }
+
+    div.frase div.imformacion_miembros h3 {
+        font-size: 19px;
+    }
+    
+    
+    div.frase div.imformacion_miembros h4  {
+        font-size: 15px;
+    }
+
+    div.frase div.imformacion_miembros h3,
+div.frase div.imformacion_miembros h4 {
+    text-align: initial;
+    margin-bottom: 6px;
+    margin-left: 0px;
+}
+
+.responsables h2 {
+    width: 20%;
+}
+.responsables {
+    margin-left: 5%;
+}
+
+}
+
+@media only screen and (min-width: 1080px){
+    div.frase div.imformacion_miembros p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    div.frase div.imformacion_miembros h3 {
+        font-size: 23px;
+    }
+    
+    
+    div.frase div.imformacion_miembros h4  {
+        font-size: 18px;
+    }
+
+    .responsables h2 {
+        font-size: 25px;
+    }
+
+    .responsables {
+        margin-top: 20px;
+    }
+    
+}

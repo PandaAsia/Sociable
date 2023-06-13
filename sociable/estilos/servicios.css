@@ -1,0 +1,142 @@
+@import url('Fuentes.css');
+
+.servicios {
+    margin-top: 25px;
+    background-color: #B90000;
+}
+
+.servicios #main p {
+    font-family: segoeui;
+    font-size: 13px;
+    width: 266px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.servicios #main {
+    padding-top: 14px;
+    /* background-color: #B90000; */
+    color: white;
+    padding-bottom: 5px;
+}
+
+
+.servicios #main img {
+    display: block;
+    width: 265.74px;
+    margin: 0 auto;
+}
+
+.servicios #main .img {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.servicios #main h2 {
+    font-family: Lato;
+    font-size: 20px;
+    background-color: black;
+    width: 142.28px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.servicios #main h3 {
+    width: 266px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-family: TektonPro;
+    font-weight: inherit;
+    font-size: 18px;
+}
+
+.servicios #servicioImagen {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .servicios {
+        display: flex;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    .servicios #servicioImagen {
+        display: block;
+        width: 50%;
+    }
+    .servicios #servicioImagen img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .servicios #main {
+        width: 50%;
+        height: auto;
+        margin-left: 25px;
+    }
+    .servicios #main .article {
+        /* background-color: black; */
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .servicios #main .article img {
+        margin-top: -20px;
+        width: 100%;
+    }
+    .servicios #main .article div {
+        width: 50%
+    }
+    .servicios #main .art2 {
+        flex-direction: row-reverse;
+    }
+    .servicios #main p {
+        width: 80%;
+        line-height: 17px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+
+    .servicios #main h3 {
+        width: 100%;
+        
+    }
+}
+
+@media only screen and (min-width: 1080px){
+    .servicios #main h2 {
+        font-size: 25px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 30%;
+    }
+
+    .servicios #main h3 {
+        font-size: 23px;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+    .servicios #main p {
+        font-size: 16px;
+        width: 90%;
+        left: 0;
+        margin-left: 0px;
+    }
+
+    .servicios #main .article img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+    }
+
+
+
+
+}

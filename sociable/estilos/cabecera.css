@@ -1,0 +1,158 @@
+
+body{
+    padding-top: 65px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    background-color: #B90000;
+    border: none;
+}
+
+.contenedor_navbar{
+    width: 100%;
+    margin: auto;
+}
+
+#menu_navbar{
+    display: none;
+}
+
+header label{
+    float: right;
+    cursor: pointer;
+}
+
+.menu_nav{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 22px;
+    padding-top: 30px;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.contenedor_navbar label img{
+    width: 35px;
+    height: 35px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+header .contenedor_navbar{
+    display: table;
+}
+
+.menu_nav a{
+    display: block;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-left: 10px;
+    width: 95%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.menu_nav  a:hover{
+    color: Black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#menu_navbar:checked ~ .menu_nav{
+    transform: translateX(0%);
+}
+
+.contenedor_navbar img#logo{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 720px) {
+    .contenedor_navbar img#logo{
+        width: 11%;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+
+    .menu_nav a{
+        font-size: 25px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1080px) {
+    header{
+        background-color: #FE3535;
+    }
+    .contenedor_navbar img#logo{
+        width: 10%;
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+
+    .menu_nav{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translate(0px);
+        float: right;
+        display: flex;
+        top: 10px;
+        margin-right: 20px;
+        background: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 23px;
+        margin-right: 65px;
+    }
+
+    .menu_nav a{
+        font-size: 20px;
+        padding-top: 0px;
+        padding-left: 0px;
+        width: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+
+    .menu_nav  a:hover{
+        color: Black;
+        background:none;
+    }
+
+    header label{
+        display: none;
+    }
+
+    .menu_principal{
+        display: flex;
+    }
+
+    .menu_principal a{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+}
